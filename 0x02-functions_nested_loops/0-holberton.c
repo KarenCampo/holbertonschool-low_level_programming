@@ -1,13 +1,9 @@
 #include "holberton.h"
-
 /**
- *
- * Main - defines the main function of the program 
- * putchar - writes the character to stdout
- * @c: The character to print
- *
- * Return: On success 0.
- */
+  * main - defines the main function of the program
+  *
+  * Return: On success 0.
+  */
 int main(void)
 {
 	_putchar('H');
