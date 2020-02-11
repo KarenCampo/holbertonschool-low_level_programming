@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlio.h>
+#include <stdlib.h>
 
 /**
- * main - starts the program prints the alphabet in lowercase, and then in uppercase
+ * main - starts he program prints the alphabet in lowercase, and then in uppercas
+ *
  * Return: 0
  */
 
