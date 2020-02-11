@@ -11,15 +11,15 @@
  */
 int main(void)
 {
-	char name[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-
-	int k = 0;
-
-	while (name[k] != '\0')
-	{
-	_putchar(name[k]);
-	k++;
-	}
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
 	return (0);
 }
