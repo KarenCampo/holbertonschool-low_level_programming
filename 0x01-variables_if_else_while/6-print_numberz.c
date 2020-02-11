@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - stars, entry
+ * main - starts, entry
  *
  * Return: 0 
  */
