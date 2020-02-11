@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - starts he program prints the alphabet in lowercase, and then in uppercas
+ * main - starts the program, prints files
  *
  * Return: 0
  */
