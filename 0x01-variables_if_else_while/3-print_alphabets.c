@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	char c;
+	char m;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	for (m = 'a' ; m <= 'z' ; m++)
 	{
-		putchar (c);
+		putchar (m);
 	}
-	for (C = 'A' ; C <= 'Z' ; C++)
+	for (m = 'A' ; m <= 'Z' ; m++)
 	{
-		putchar (C);
+		putchar (m);
 	}
 	putchar('\n');
 
