@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- *
- *
+ * print_to_98 - prints all numbers until 98.
+ * @n: variable.
+ * return: nothing.
  */
 void print_to_98(int n)
 {
