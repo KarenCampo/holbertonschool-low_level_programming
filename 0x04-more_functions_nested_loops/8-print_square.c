@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * print_square - Entry point
+ * @size: prints
  * Return: 0
  */
 
