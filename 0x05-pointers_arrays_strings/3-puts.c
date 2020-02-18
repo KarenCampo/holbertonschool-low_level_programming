@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _puts - prints a string.
+ * _puts - prints strings.
  * @str: stands for string.
  */
 void _puts(char *str)
