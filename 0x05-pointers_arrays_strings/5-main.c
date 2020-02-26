@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-	char s1[] = "aaaaz";
-	char s2[] = "aaaaa!";
+	char s[10] = "Holberton";
 
-	printf("%d\n", _strcmp(s1, s2));
-	printf("%d\n", _strcmp(s2, s1));
-	printf("%d\n", _strcmp(s1, s1));
+	printf("%s\n", s);
+	rev_string(s);
+	printf("%s\n", s);
 	return (0);
 }

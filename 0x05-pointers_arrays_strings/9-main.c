@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+	char s1[98];
 	char *p;
 
-	p = cap_string(s);
+	p = _strcpy(s1, "First, solve the problem. Then, write the code\n");
+	printf("%s", s1);
 	printf("%s", p);
-	printf("%s", s);
 	return (0);
 }
