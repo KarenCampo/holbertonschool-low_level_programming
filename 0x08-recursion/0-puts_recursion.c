@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
  * _puts_recursion - Entry point
  * @s: string to print
  * Return: 0 on success
  */
+
 void _puts_recursion(char *s)
 
 {
