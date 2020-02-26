@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _memset - function that fills the fist n
- * @n: number of bytes of the momery area pointed to
+ * @n: number of  bytes of the momery area pointed to
  * @s: memory area
  * @b: constant byte
  * Return: n
