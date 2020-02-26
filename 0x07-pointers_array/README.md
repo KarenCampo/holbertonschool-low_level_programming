@@ -1,0 +1,3 @@
+		SO... THIS TIME WE ARE GOING TO... 
+
+Make pointers that point to pointers that point to pointers that can dereference a dereference to a dereference
