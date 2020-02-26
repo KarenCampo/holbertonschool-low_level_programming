@@ -5,7 +5,6 @@
  * Return: 0 on success
  */
 void _puts_recursion(char *s)
-
 {
 	if (*s != '\0')
 	{
@@ -13,8 +12,5 @@ void _puts_recursion(char *s)
 		_puts_recursion(s + 1);
 	}
 	else
-	{
-	_putchar(10);
-	}
-}
-
+		_putchar(10);
+9}
