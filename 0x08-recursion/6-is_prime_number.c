@@ -24,7 +24,7 @@ int prime_number(int n, int p)
 
 /**
  * is_prime_number - Entry point
- * @n: prime numbers
+ * @n: prime numbers in function
  * Return: Always 0
  */
 int is_prime_number(int n)
