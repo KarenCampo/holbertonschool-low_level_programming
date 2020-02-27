@@ -1,4 +1,4 @@
-B#include "holberton.h"
+#include "holberton.h"
 /**
  * factorial - Entry point
  * @n: given number
