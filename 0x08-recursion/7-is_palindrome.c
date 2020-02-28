@@ -8,7 +8,7 @@
 
 int strlen_r(char *s)
 {
-	if (!*s) /* Checks if its different to null*/
+	if (!*s) /* Checks if is different to null*/
 		return (0);
 	else
 		return (1 + strlen_r(s + 1));
