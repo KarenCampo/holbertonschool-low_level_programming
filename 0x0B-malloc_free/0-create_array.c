@@ -2,11 +2,12 @@
 #include "holberton.h"
 /**
   * create_array - for a char array 
-  * @size: size variable
+  * @size: size of variable
   * @c: counter variable
   * Return: char
   */
-char *create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c) 
+
 {
 char *l;
 
