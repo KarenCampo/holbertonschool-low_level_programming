@@ -28,3 +28,7 @@ allocates the requested memory and returns a pointer to it. The difference in ma
 attempts to resize the memory block pointed to by ptr that was previously allocated with a call to malloc or calloc
 
 * Return Value: This function returns a pointer to the newly allocated memory, or NULL if the request fails.
+---------------------------------------------------------------------------------------------------------------------
+#### ***Author***
+
+[Karen](http://github.com/KarenCampo)
