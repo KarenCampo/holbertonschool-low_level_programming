@@ -8,7 +8,7 @@
 * [why pointers to functions?](https://www.youtube.com/watch?v=sxTFSDAZM8s&feature=youtu.be)(https://www.youtube.com/watch?v=sxTFSDAZM8s&feature=youtu.be)
 * [https://boredzo.org/pointers/)
 
-#Some Requirements
+# Some Requirements
 
 * programs and funtions will be compiled with **gcc 4.8.4**
 * All files should be ompiled with Ubuntu 14.04 LTS
