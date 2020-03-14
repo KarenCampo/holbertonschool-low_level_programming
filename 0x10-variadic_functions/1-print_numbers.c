@@ -5,7 +5,7 @@
  * print_numbers - this function prinst numbers
  * @n: number of intergers passed to the function
  * @separator: string to be printed between numbers
- * Return - Always 0 on success 
+ * Return - Always 0 on success
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 
