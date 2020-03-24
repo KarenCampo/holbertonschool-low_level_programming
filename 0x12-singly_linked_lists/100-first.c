@@ -1,4 +1,6 @@
 #include "lists.h"
+void tortuga(void) __attribute__((constructor));
+
 /**
  * tortuga - Prints beforer main function
  *
