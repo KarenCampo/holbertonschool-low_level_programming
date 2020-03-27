@@ -54,6 +54,7 @@ For a binary number, the most significant bit (MSB) is the digit furthermost to 
     1010110010
     ^        ^
     |        |
+
    MSB      LSB
 
 ***Deimal and Binary Equivalents***
@@ -107,16 +108,17 @@ Convert 10110111 to Decimal
   ^     ^    ^    ^   ^    ^   ^   ^
   |     |    |    |   |    |   |   |
   |     |    |    |   |    |   |   |__ 1 x 1 = 1      =   1
-  |     |    |    |   |    |   |______ 1 x 2 = 2      =   2
-  |     |    |    |   |    |__________ 1 x 4 = 4      =   4
-  |     |    |    |   |_______________ 0 x 8 = 0      =   0
-  |     |    |    |___________________ 1 x 16 = 16    =  16 
-  |     |    |________________________ 1 x 32 = 32    =  32
-  |     |_____________________________ 0 x 64 = 0     =   0
-  |___________________________________ 1 x 128 = 128  = 128
-                                                     +_______
+  |     |    |    |   |    |   |_ ___  1 x 2 = 2      =   2
+  |     |    |    |   |    |__ __ _  _ 1 x 4 = 4      =   4
+  |     |    |    |   |__ ___ __ __ __ 0 x 8 = 0      =   0
+  |     |    |    |__ ___ ____ ____ __ 1 x 16 = 16    =  16 
+  |     |    |_  ____ _______ ____ ___ 1 x 32 = 32    =  32
+  |     |_ __ ____ ___ ____ ___ __  __ 0 x 64 = 0     =   0
+  |__ _ __ ___ ____ ____ ____ ____ ___ 1 x 128 = 128  = 128
+                                                     +_ __ __
                                                        183
 10110111 = 183
+
 The binary number 1011011 can be written as 10110112 to explicitly indicate the base. Similarly 54 base 10 can be written 5410 Often however, the subscript is omitted to avoid excessive detail when the context is known. Usually subscripts are only included in explanatory text or notes in code to avoid confusion if several numbers with different bases are used together.
 
 
@@ -133,7 +135,7 @@ Is a binary operator that operates on two equal-lenght bit patterns. If both bit
 
   10101010  &
   11001100
-  _________
+  _ ___ ___
   10001000      So... If both bits are in the same position and are 1, the result will be 1. This is a multipliation operation.
 
 #### * |  --  Operator OR
@@ -143,7 +145,7 @@ Is a binary operator that operates on two equal-lenght bit patterns. If both bit
 
    10101010  |
    11001100
-   __________
+   ___ __ ___
    11101110    This one is an sum operation 
 
 #### * ~  --  Operator NOT
@@ -152,7 +154,7 @@ is an unary operator that flips the bits of the number, if the ith bit is 0, it 
 **e.g**
 
  ~ 10101010
-  ___________
+  __ __ __  _
    01010101       This operator simply flips the number
 
 #### * ^  -- Xor Operator
@@ -162,7 +164,7 @@ is an unary operator that flips the bits of the number, if the ith bit is 0, it 
 
     10101010 ^
     11001100
-    __________
+    _ __ __ __
     01100110  Here the difference of bits in the same position equals 1, and the equality of them results in 0.
  
 #### * >>  --  Right Shift
@@ -171,7 +173,7 @@ is an unary operator that flips the bits of the number, if the ith bit is 0, it 
 **e.g.**
 
    10101010  >>3
-   ____________
+   _ _ _ __ _ _
    00010101       This one moves the bits to the right
 
 
@@ -180,7 +182,7 @@ is a binary operator which shift the some number of bits, in the given bit patte
 
 **e.g.**
     00010101  <<3
-    __________
+    __  _ _ __
     10101000    Here is like the previous one but the movement is to the left
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
