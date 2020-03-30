@@ -1,29 +1,13 @@
 #include "holberton.h"
 /**
- * print_binary - function that prints the binary representation of a number
- * @n: number to print in binary
- * Return: Nothing but prints in stdout the binary series 
+ * get_bit - function that returns the value of a bit at a given index.
+ * @n: input number
+ * @index: index of binary number
+ * Return: the value of the bit at index index or -1 if an error occured
  */
-void print_binary(unsigned long int n)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	int bit, c, size = 0;
-	unsigned long int dec = n;
-
-	if (n == 0)
-		_putchar('0');
-
-	while (dec)
-	{
-		size++;
-		dec >>= 1;
-	}
-
-	for (c = size - 1; c >= 0; c--)
-	{
-		bit = n >> c;
-			if (bit & 1)
-				_putchar('1');
-			else
-				_putchar('0');
-	}
+	if (index > (sizeof(unsigned long int) * 8) - 1)
+		return (-1);
+	return ((n >> index) & 1);
 }
