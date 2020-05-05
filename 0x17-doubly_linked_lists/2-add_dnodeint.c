@@ -1,4 +1,4 @@
-gcc -Wall -pedantic -Werror -Wextra 2-main.c 2-add_dnodeint.c 0-print_dlistint.c -o c#include "lists.h"
+#include "lists.h"
 
 /**
  * add_dnodeint - Function that adds a new node at the beginning of a dlistint_t list.
@@ -22,7 +22,6 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		{
                   newnode++;
 		}
-		if (*head)
 		{
 			(*head)->prev = newnode;
 		}
