@@ -2,9 +2,9 @@
 
 /**
  * key_index - gives the index of a key
- * @key: the key of our data
- * @size: size of the array that will store keys paired with their data
- * Return: index for the  key in the array or ash table
+ * @key: The key for data
+ * @size: Size of the array of the hash table
+ * Return: index for the  key or hash table
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
