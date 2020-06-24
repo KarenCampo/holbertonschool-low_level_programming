@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * f2 - disassembled 
- * @username: header 
- * @user_len: index 
+ * f2 - disassembled
+ * @username: header
+ * @user_len: index
  * Return: EXIT_SUCCESS.
  */
 ulong f2(long username, int user_len)
@@ -25,7 +25,7 @@ return ((ulong)((local_10 ^ 0x4f) & 0x3f));
 /**
  * f3 - disassembled
  * @username: header
- * @user_len: index 
+ * @user_len: index
  * Return: 1 if success -1 if failed
  */
 ulong f3(long username, int user_len)
@@ -46,7 +46,7 @@ return ((ulong)((local_10 ^ 0x55) & 0x3f));
 /**
  * f4 - disassembled
  * @username: header
- * @user_len: index 
+ * @user_len: index
  * Return: 1 if success -1 if failed
  */
 ulong f4(char *username, int user_len)
@@ -71,7 +71,7 @@ return ((ulong)(uVar1 & 0x3f));
 }
 
 /**
- * f5 - disassembled 
+ * f5 - disassembled
  * @username: header
  * @user_len: index
  * Return: 1 if success -1 if failed
