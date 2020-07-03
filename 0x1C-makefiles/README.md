@@ -3,6 +3,7 @@
 ## Resources 
 
 [C Programming: Makefiles](https://www.youtube.com/watch?v=GExnnTaBELk)
+
 [GNU make](https://www.gnu.org/software/make/manual/make.html#Reading)
 
 
@@ -33,14 +34,14 @@ Create your first Makefile.
 ### Task 1.
  1-Makefile
 
- ### Task 2.
- 2-Makefile
+### Task 2.
+2-Makefile
 
  ### Task 3.
-  3-Makefile
+3-Makefile
 
-  ### Task 4.
-   A complete Makefile
+### Task 4.
+A complete Makefile
 
-   ### Task 5
-    Technical interview preparation
+### Task 5
+Technical interview preparation
