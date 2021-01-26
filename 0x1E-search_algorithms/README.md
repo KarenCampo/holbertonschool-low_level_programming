@@ -26,4 +26,10 @@ Bynary search also known as half-interval search or logarithmic search, is a sea
 
 Binary search runs in logarithmic time in the worst case, making *O(log n)*  comparisons, where *n* is the number of elements in the array. Binary search is faster than linear search except for small arrays. 
 
+If we want to compare standard sorting algorithms on the basis of space, then Auxiliary Space would be a better criteria than Space Complexity. Merge Sort uses *O(n)* auxiliary space, Insertion sort and Heap Sort use *O(1)* auxiliary space. Space complexity of all these sorting algorithms is *O(n)* though. 
 
+* *O(1)*  constant complexity  takes the same amount of space regardless of the input size
+* *O(log n)*  logarithmic complexity  takes space proportional to the log of the input size
+* *O(n*)  linear complexity  takes space directly proportional to the input size
+* *O(n log n)*  log-linear/quasilinear complexity  also called linearithmic, its space complexity grows proportionally to the input size and a logarithmic factor
+* *O(n^2)*  square/polynomial complexity  space complexity grows proportionally to the square of the input size
