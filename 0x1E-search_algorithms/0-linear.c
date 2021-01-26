@@ -5,6 +5,8 @@
  * @size: The size of the array
  * @value: The value that I need to find
  * @array: header pointer
+ *
+ * Return: -1 not present, index number if found
  */
 
 int linear_search(int *array, size_t size, int value)
